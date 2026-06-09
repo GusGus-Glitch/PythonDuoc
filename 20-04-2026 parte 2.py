@@ -1,0 +1,8 @@
+print (f"El Arrendador, _______, entrega en arrendamiento al Arrendatario, ___________, el inmueble ubicado en __________. El Arrendatario se obliga a pagar al Arrendador un canon de arriendo mensual de $_____________, pagaderos dentro de los primeros ___________ días de cada mes. El presente contrato tendrá una duración de _____________ meses, contados a partir de la firma del presente instrumento.")
+arrendador = input("Nombre del arrendador: ")
+arrendatario = input("Nombre del arrendatario: ")
+direccion = input("Dirección del inmueble: ")
+monto = input("Monto del arriendo mensual: ")
+duracion = input("Duración del contrato (en meses): ")
+diadepago = input("Día de pago (en números): ")
+print(f"El Arrendador, {arrendador}, entrega en arrendamiento al Arrendatario, {arrendatario}, el inmueble ubicado en {direccion}. El Arrendatario se obliga a pagar al Arrendador un canon de arriendo mensual de ${monto}, pagaderos dentro de los primeros {diadepago} días de cada mes. El presente contrato tendrá una duración de {duracion} meses, contados a partir de la firma del presente instrumento.")

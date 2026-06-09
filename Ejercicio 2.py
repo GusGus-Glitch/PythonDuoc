@@ -1,0 +1,6 @@
+a = input ("Que colo es la rosa?")
+print ("La rosa es de color: ", a)
+p = float(input("Cual es el precio de la rosa?"))
+print ("El precio de la rosa es: ", p)
+n = int(input("Cuantas rosas?")) 
+print ("El total de rosas es: ", n)

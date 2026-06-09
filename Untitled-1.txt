@@ -1,0 +1,1 @@
+onCommand:pokemon-pets.addPet
